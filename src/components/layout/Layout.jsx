@@ -1,9 +1,9 @@
 import Footer from './Footer';
-import Header from './Header';
+import Header from './Header/Header';
 import { Helmet } from 'react-helmet';
 const Layout = ({ children, description, keywords, author, title }) => {
   return (
-    <>
+    <div className="container-fluid" style={{ paddingTop: '170px' }}>
       <Helmet>
         <meta charSet="utf-8" />
         <meta name="description" content={description} />
@@ -14,7 +14,7 @@ const Layout = ({ children, description, keywords, author, title }) => {
       <Header />
       <main>{children}</main>
       <Footer />
-    </>
+    </div>
   );
 };
 export default Layout;

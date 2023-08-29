@@ -1,0 +1,43 @@
+{
+  "menu": [
+    {
+      "id": "About",
+      "Content": [
+        "Who we are",
+        "What we do",
+        "Show case",
+        "Faq",
+        "About HQ Property"
+      ]
+    },
+    {
+      "id": "Services",
+      "Content": [
+        "Consultancy",
+        "Construction",
+        "Renovation",
+        "Landscaping",
+        "Maintenance",
+        "Digital image"
+      ]
+    },
+    {
+      "id": "Products",
+      "Content": [
+        "Consultancy",
+        "Windows & Doors",
+        "Blinds & Curtains",
+        "Shutters",
+        "Awning",
+        "Sun porch",
+        "Benchtop & Cupboard",
+        "Solar power",
+        "Smartphone"
+      ]
+    },
+    {
+      "id": "iHQ",
+      "Content": ["Sign Up", "Support", "Download"]
+    }
+  ]
+}
