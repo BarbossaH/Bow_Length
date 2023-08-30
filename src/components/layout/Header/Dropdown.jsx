@@ -1,6 +1,4 @@
 const Dropdown = ({ id, content }) => {
-  console.log(content);
-  content.map((i) => console.log(i));
   return (
     <>
       <li className="nav-item dropdown">
@@ -17,14 +15,14 @@ const Dropdown = ({ id, content }) => {
         <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
           {content.map((i) => (
             <li
-              key={i}
+              key={i.title}
               style={{
                 paddingTop: '10px',
                 fontSize: '18px',
               }}
             >
-              <a className="dropdown-item" href="#">
-                <h6 className="dropdown-h6">{i}</h6>
+              <a className="dropdown-item " href="#">
+                <h6 className="dropdown-h6 ">{i.title}</h6>
               </a>
             </li>
           ))}

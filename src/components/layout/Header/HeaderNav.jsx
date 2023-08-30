@@ -4,9 +4,7 @@ import menuData from '../../../Data/nav_content.json';
 
 const HeaderNav = () => {
   const [isOpen, setIsOpen] = useState(false);
-  // menuData.menu.map((i) => {
-  //   console.log(i);
-  // });
+
   return (
     <div
       className="row d-flex justify-content-center "
@@ -68,7 +66,7 @@ const HeaderNav = () => {
                 placeholder="Search"
                 aria-label="Search"
               />
-              <button className="btn btn-outline-success" type="submit">
+              <button className="btn btn-primary" type="submit">
                 Search
               </button>
             </form>

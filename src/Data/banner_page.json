@@ -1,0 +1,34 @@
+{
+  "banner": [
+    {
+      "id": "1",
+      "fileName": "images/page-banner/banner-bg-1.jpg",
+      "title": " This is title This is titleThis is title This is title This is title",
+      "content": "This is content"
+    },
+    {
+      "id": "2",
+      "fileName": "images/page-banner/banner-bg-2.jpg",
+      "title": " This is title This is titleThis is title This is title This is title",
+      "content": "This is content"
+    },
+    {
+      "id": "3",
+      "fileName": "images/page-banner/banner-bg-3.jpg",
+      "title": " This is title This is titleThis is title This is title This is title",
+      "content": "This is content"
+    },
+    {
+      "id": "4",
+      "fileName": "images/page-banner/banner-bg-4.jpg",
+      "title": " This is title This is titleThis is title This is title This is title",
+      "content": "This is content"
+    },
+    {
+      "id": "5",
+      "fileName": "images/page-banner/banner-bg-5.jpg",
+      "title": " This is title This is titleThis is title This is title This is title",
+      "content": "This is content"
+    }
+  ]
+}

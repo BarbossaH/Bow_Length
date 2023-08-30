@@ -1,10 +1,12 @@
+import Banner from '../components/Banner/Banner';
 import Layout from '../components/layout/Layout';
-import WebRotator from '../components/WebRotator/WebRotator';
+import WebCarousel from '../components/WebCarousel/WebCarousel';
 
 const HomePage = () => {
   return (
     <Layout title={'HomePage'}>
-      <WebRotator />
+      <Banner />
+      <WebCarousel />
     </Layout>
   );
 };

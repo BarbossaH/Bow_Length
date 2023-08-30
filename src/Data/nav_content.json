@@ -3,41 +3,47 @@
     {
       "id": "About",
       "Content": [
-        "Who we are",
-        "What we do",
-        "Show case",
-        "Faq",
-        "About HQ Property"
+        {
+          "title": "Who we are"
+        },
+        { "title": "What we do" },
+        { "title": "Show case" },
+        { "title": "Faq" },
+        { "title": "About HQ Property" }
       ]
     },
     {
       "id": "Services",
       "Content": [
-        "Consultancy",
-        "Construction",
-        "Renovation",
-        "Landscaping",
-        "Maintenance",
-        "Digital image"
+        { "title": "Consultancy" },
+        { "title": "Construction" },
+        { "title": "Renovation" },
+        { "title": "Landscaping" },
+        { "title": "Maintenance" },
+        { "title": "Digital image" }
       ]
     },
     {
       "id": "Products",
       "Content": [
-        "Consultancy",
-        "Windows & Doors",
-        "Blinds & Curtains",
-        "Shutters",
-        "Awning",
-        "Sun porch",
-        "Benchtop & Cupboard",
-        "Solar power",
-        "Smartphone"
+        { "title": "Consultancy" },
+        { "title": "Windows & Doors" },
+        { "title": "Blinds & Curtains" },
+        { "title": "Shutters" },
+        { "title": "Awning" },
+        { "title": "Sun porch" },
+        { "title": "Benchtop & Cupboard" },
+        { "title": "Solar power" },
+        { "title": "Smartphone" }
       ]
     },
     {
       "id": "iHQ",
-      "Content": ["Sign Up", "Support", "Download"]
+      "Content": [
+        { "title": "Sign Up" },
+        { "title": "Support" },
+        { "title": "Download" }
+      ]
     }
   ]
 }

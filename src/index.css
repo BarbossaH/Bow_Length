@@ -25,11 +25,21 @@ a {
   .contact {
     display: none;
   }
+  .headerTop {
+    padding-top: 150px;
+  }
   .menu-bg-color {
     background-color: deepskyblue;
   }
   .menu-color {
     color: #fff !important;
+  }
+  .banner-title {
+    font-size: 15px;
+    font-weight: 700;
+  }
+  .banner-content {
+    font-size: 9px;
   }
 }
 @media (min-width: 570px) and (max-width: 767px) {
@@ -37,6 +47,16 @@ a {
     display: block;
     margin-bottom: 3px;
     background-color: #333333;
+  }
+  .banner-title {
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .banner-content {
+    font-size: 10px;
+  }
+  .headerTop {
+    padding-top: 150px;
   }
   .appointment {
     display: none;
@@ -52,8 +72,18 @@ a {
   .appointment {
     display: none;
   }
+  .banner-title {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .banner-content {
+    font-size: 12px;
+  }
   .menu {
     display: block;
+  }
+  .headerTop {
+    padding-top: 150px;
   }
   .menu-color {
     color: #fff !important;
@@ -72,6 +102,16 @@ a {
     margin-bottom: 3px;
     background-color: #333333;
   }
+  .banner-title {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .banner-content {
+    font-size: 12px;
+  }
+  .headerTop {
+    padding-top: 100px;
+  }
   .menu {
     display: none;
   }
@@ -81,6 +121,13 @@ a {
 }
 
 @media (min-width: 1200px) {
+  .banner-title {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .headerTop {
+    padding-top: 100px;
+  }
   .contact {
     margin-bottom: 3px;
     background-color: #333333;
@@ -167,4 +214,33 @@ a {
 }
 .dropdown-h6:hover {
   color: deepskyblue !important;
+}
+/*banner*/
+.fade-in-out {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.fade-in-out.show {
+  opacity: 1;
+}
+
+.btn-primary1 {
+  margin-top: 5px;
+  background-color: deepskyblue;
+  padding: 15px;
+  color: #fff;
+  font-weight: bold;
+}
+.btn-primary1:hover {
+  color: #fff;
+  background-color: rgb(0, 255, 179);
+  font-weight: bold;
+}
+.custom-ul {
+  overflow-x: auto;
+}
+.custom-ul li {
+  flex: 0 0 auto;
+  margin-right: 15px;
 }
