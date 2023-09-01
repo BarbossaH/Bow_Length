@@ -1,0 +1,24 @@
+{
+  "carousel": [
+    {
+      "id": "1",
+      "fileName": "images/pro/pro1.jpg"
+    },
+    {
+      "id": "2",
+      "fileName": "images/pro/pro2.jpg"
+    },
+    {
+      "id": "3",
+      "fileName": "images/pro/pro3.jpg"
+    },
+    {
+      "id": "4",
+      "fileName": "images/pro/pro4.jpg"
+    },
+    {
+      "id": "5",
+      "fileName": "images/pro/pro5.jpg"
+    }
+  ]
+}
