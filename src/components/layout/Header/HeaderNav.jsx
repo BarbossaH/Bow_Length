@@ -1,20 +1,20 @@
 import { useState } from 'react';
 import Dropdown from './Dropdown';
-import menuData from '../../../Data/nav_content.json';
+import { menu } from '../../../Data/nav_content.json';
 
 const HeaderNav = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
     <div
-      className="row d-flex justify-content-center "
-      style={{ padding: '20px' }}
+      className="row d-flex justify-content-center shadow"
+      style={{ padding: '20px', backgroundColor: 'white' }}
     >
       <div
         className="col-lg-2 d-flex justify-content-center align-items-center "
         // style={{ border: '1px red solid' }}
       >
-        <img className="img-fluid" src="images/logo.png" alt="logo" />
+        <img className="img-fluid " src="images/logo.png" alt="logo" />
       </div>
       <nav className="navbar navbar-expand-lg navbar-light col-lg-10 menu-text menu-bg-color">
         <div className="container-fluid ">
@@ -49,7 +49,7 @@ const HeaderNav = () => {
                   Home
                 </a>
               </li>
-              {menuData.menu.map((i) => {
+              {menu.map((i) => {
                 return <Dropdown key={i.id} id={i.id} content={i.Content} />;
               })}
 

@@ -60,7 +60,12 @@ const WebCarousel = () => {
   return (
     <div
       className="position-relative"
-      style={{ width: '95%', margin: '0 auto' }}
+      style={{
+        width: '95%',
+        margin: '0 auto',
+
+        paddingTop: '30px',
+      }}
       onMouseEnter={() => setMouseIn(true)}
       onMouseLeave={() => setMouseIn(false)}
     >
